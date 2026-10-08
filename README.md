@@ -27,11 +27,15 @@ Projeto desenvolvido como parte das atividades da disciplina de Programação We
 ## Como Executar o Projeto
 
 1. **Clonar o repositório:**
-   ```bash git clone [https://github.com/guzsouza/demo-django.git](https://github.com/guzsouza/demo-django.git)
-   ```bash cd demo-django
+   ```bash 
+   git clone [https://github.com/guzsouza/demo-django.git](https://github.com/guzsouza/demo-django.git)
+   cd demo-django
+   ``` 
 
 2. **Subir os containers Docker**
-    ```bash docker compose up --build
+    ```bash 
+        docker compose up --build
+    ```
 
 3. **Acessar a aplicação:**
     Página Inicial: http://localhost:8000/
@@ -39,5 +43,7 @@ Projeto desenvolvido como parte das atividades da disciplina de Programação We
     Painel Administrativo: http://localhost:8000/admin/
 
 4. **Criar um superusuário no Django (Admin):**
-    ```bash docker compose exec web python manage.py createsuperuser
+    ```bash 
+        docker compose exec web python manage.py createsuperuser
+    ```
     
